@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding: 0;
+}
+section.First{
+   display: flex;
+   height: 400px; 
+   justify-content: space-around;
+   padding-top: 8%;
+   background-color: blueviolet;
+   margin-bottom: 5rem;
+}
+
+
+section.First .img{
+    height: 300px;
+    border-radius: 20px;
+    width: 400px;
+    background-color: aquamarine;
+}
+section.First .img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+section.second{
+    text-align: center;
+}
+section.second a{
+    font-family: sans-serif;
+       font-size: 20px;
+}
+
+section.third{
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2rem;
+    grid-row-gap: 5rem;
+    margin-bottom: 2rem;
+}
+section.third .card{
+    height: 400px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #c6c9cc;
+    box-shadow: 2px 10px 10px grey;
+}
+section.third img{
+    height: 90%;
+    width: 100%;
+    border-radius: 20px;
+    /* animation: ring 1.5s linear  infinite;         */
+   
+}
+/*  
+section.third img::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 1.2s;
+    border: 1px solid rgba(175, 25, 25, 0.6);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.section.third img::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 1.2s;
+    border: 1px solid rgba(169, 15, 15, 0.6);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+section.third img:hover::before {
+    transform: rotateX(-45deg);
+    background-color: rgba(196, 25, 25, 0);
+} */
+
+section.third img:hover{
+      transform: rotateX(180deg);
+}
+   
+   /* @keyframes ring{
+       0%{transform: rotate(0deg); opacity: 0.2;}
+       50%{transform: rotate(180deg); opacity: 0.6;}
+       100%{transform: rotate(360deg); opacity: 1;}
+
+   } */
+
+section.third h4{
+    font-size: 22px;
+    font-weight: 100;
+    text-align: center;
+}
+section.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+section.btn button{
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 20px;
+    opacity: 0.8;
+    border: none;
+    border-radius: 5px;
+    background-color: #c6c9cc;
+}
+footer.footer{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    color: wheat;
+    text-align: center;
+    padding: 20px;
+}
+
+footer.footer .logos img{
+    height: 80px;
+    cursor: pointer;
+    justify-content: space-around;
+    margin-top: 6rem;
+}
+footer.footer pre{
+       font-size: 20px;
+       margin-top: 3rem;
+       text-align: center;
+       position: relative;
+       right: 70px;
+}
