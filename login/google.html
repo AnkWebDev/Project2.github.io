@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login Page</title>
+    <style>
+        ul{
+            align-items: right;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 2rem;
+            padding-left: 70%;
+        }
+        ul:hover{
+            text-underline-position: below;
+        }
+
+        ul li{
+            
+            font-size: 1.2rem;
+            color: #3f3f3c;
+            display: inline-block;
+            cursor: pointer;
+            padding: 10px;
+            justify-content: space-between;
+        }
+        ul button{
+    
+            height: 40px;
+            width: 100px;
+            border: 1px hsl(60, 2%, 24%);
+            border-radius: 15px;
+        } 
+        form input{
+            margin-top: 70px;
+            width: 50%;
+            font-size: 25px;
+            border-radius: 10px;
+            outline: none;
+            border: 1px solid #a1a19f;
+        }
+        div img{
+            height: 100px;
+        }
+        .second{
+            /* padding-right: 50%; */
+           display: flex;
+           position: relative;
+           right: 43%;
+        }
+        ul.second li{
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>images</li>
+        <li>gmail</li>
+        <button>Sign In</button>
+    </ul><br><br><br>
+
+<center>
+    <div>
+        <img src="google.png" alt="">
+    </div>
+    <form>
+       <label for="search"><input type="search" placeholder="search here"></label>
+    </form>
+    <ul class="second">
+        <li>hindi</li>
+        <li>english</li>
+        <li>spanish</li>
+        <li>marathi</li>
+        <li>portuguese</li>
+    </ul>
+</center>
+</body>
+</html>

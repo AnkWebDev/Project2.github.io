@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script:wght@500&family=Roboto:ital,wght@1,500&display=inline" rel="stylesheet">
+    <title>Instagram Login Page</title>
+    <style>
+        
+        body{
+            background-image: linear-gradient(to right, #291a8f, #dd6a7d);
+        }
+        .frame{
+           padding: 10px;
+           margin-bottom: 5rem;
+            height: auto;
+            width: 400px;
+            background-color: #fff;
+            text-align: center;
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, 10%);
+        }
+        h1{
+            font-family: 'Cookie', cursive;
+            font-size:  50px;
+           margin-bottom: -8px;
+           margin-top: -1px;
+        }
+        .frame p{
+            font-size: 17px;
+            font-family: sans-serif;
+            font-weight: 650;
+            color: hsl(hue, saturation, lightness);
+            opacity: 0.5;
+        }
+        .frame  i{
+            height: 100px;
+            width: 20px;
+            z-index: 2;
+            background-color: #fff;
+        }
+        .frame .btn{
+            font-size: 14px;
+            font-weight: 600;
+            padding: 5px;
+            width: 70%;
+            cursor: pointer;
+            background-color: #0095ff;
+            color: #fff;
+            border: none;
+            outline: none;
+            border-radius: 5px;
+        }
+        span{
+    margin-top: 1rem;
+    height: 10px;
+    width: 29%;
+    border-top: 2px solid rgba(0, 0, 0, 0.4);
+    
+    display: inline-block;
+    }
+    span.or{
+        border: none;
+        margin: 0 2px;
+        width: 8%;
+        position: relative;
+        top: -5px;
+        opacity: 0.6;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    form input{
+        font-size: 15px;
+        width: 70%;
+        padding: 5px;
+        border-radius: 4px;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        outline: none;
+    }
+
+    .sign{
+        height: 14px;
+        color: #291a8f;
+        opacity: 1.5;
+        margin-top: 0px;
+        border: none;
+        margin-left: -2rem;
+    }
+
+    .account{
+        margin-top: 2rem;
+        height: 60px;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        text-align: center;
+        justify-content: space-around;
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="frame">
+        <h1>Instagram</h1>
+        <p>Sign up to see photos and <br> videos from your frieds.</p>
+    
+    <form>
+        <button class="btn">Login With Facebook</button><br><br>
+            
+        <div class="span">
+            <span></span>
+            <span class="or">OR</span>
+            <span></span>
+       </div><br>
+
+            <input type="text" placeholder="Mobile NUmber or Email"><br><br>
+            <input type="text" placeholder="Full Name"><br><br>
+            <input type="text" placeholder="Username"><br><br>
+            <input type="password" placeholder="passwrod"><br><br>
+            <input class="btn" type="button" value="Sign Up">
+
+        </form>
+        <p>By signing up, you agree to <br> our Terms & Privacy Policy.</p> <div class="account">
+        <p>Have an Account <span class="sign"> <a href="#">SignIn</a></p></span><br>
+        <i class="fa-regular fa-user"></i>
+    </div>
+    </div>
+   
+</body>
+</html>

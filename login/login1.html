@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        body{
+            background-image: linear-gradient(to left, pink, skyblue);
+            background-repeat: no-repeat;
+            background-attachment:scroll;
+            background-position: center;
+            background-size:  100%;
+        
+        }
+        ul{
+            height: 5vh;
+            display: flex;
+            list-style: none;
+            align-items: center;
+            width: 100%;
+            /* background-color: cyan; */
+            text-align: center;
+        }
+        li{
+            display: inline;
+            color: white;
+        font-size: large;
+            height: 100%;
+            text-align: center;
+            padding-left: 2%;
+            padding-right: 2%;
+            position: relative;
+           left: 35%;
+            cursor: pointer;
+             /* background-color: aquamarine; */
+        }
+        li:hover{
+            color: #1b08ed;
+            /* background-color: white; */
+            transition: .7s ease;
+        }
+        .form{
+            background-color: #b3b0ae;
+            width: 500px;
+            height: 70%;
+        }
+       .form input{
+           height: 35px;
+           width: 22%;
+           border-radius: 20px;
+           border: 1px #b3b0ae;
+           margin-top: 20px;
+           outline: none;
+       }
+       .form input[type='button']{
+           width: 70px;
+           background-color: green;
+           color: antiquewhite;
+       }
+       .form input[type='button']:hover{
+           color: green;
+           border: 2px solid green;
+           background-color: antiquewhite;
+           font-weight: 700;
+           font-size: 15px;
+           transition: 0.3s ease;
+       }
+       button{
+           font-size:18px;
+           padding: 5px;
+           width: 20%;
+           border-radius: 20px;
+           cursor: pointer;
+           border: none;
+           background-color:  linear-gradient(
+            to right, #f32170, #ff6b08,
+             #cf23cf, #eedd44);
+           
+}
+     .cards{
+         display: flex;
+         align-items: center;
+     }
+     .cards .card{
+         width: 400px;
+         text-align: center;
+           background-color: white;
+     }
+      .card img{
+          width: 100%;
+      }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Blog</li>
+            </ul>
+        </nav>
+    </div>
+    <center>
+    <div class="form"><form>
+            <label for="input"> <input type="text" placeholder=" User Name"></label><br><br>
+            <input type="text" placeholder=" Email-Id"><br><br>
+            <input type="password" placeholder=" Enter your password">
+            
+            <p>I forgot my password <a href="#"> Foget password</a></p>
+            <input type="button" value="Submit">
+            <hr>
+            or
+<br><br>
+            <button>Sign Up with Google</button>
+
+         </form>
+       
+</center>
+</body>
+</html>
